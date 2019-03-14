@@ -8,3 +8,7 @@ jspm_packages
 
 # Error log
 yarn-error.log
+
+
+# Server typescript build
+index.js
