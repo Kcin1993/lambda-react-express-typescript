@@ -1,7 +1,8 @@
 {
   "scripts": {
-    "offline": "sls offline start --port 1919",
-    "build": "tsc -p server"
+    "offline": "tsc -p server && sls offline start --port 1919",
+    "build": "tsc -p server",
+    "deploy": "tsc -p server && sls deploy"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
