@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "offline": "sls offline start --port 1919"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "path": "^0.12.7",
+    "serverless-http": "^1.9.1",
+    "serverless-offline": "^4.9.0"
+  }
+}
